@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+    background-color: ghostwhite;
+    font-family: sans-serif;
 }
 
 .navli{
@@ -9,7 +10,8 @@ body {
 .liAboutMe {
     list-style-type: none;
     color: white;
-    font-size: large;
+    font-size: 24px;
+    max-width: 100%;
     margin-top: 5%;
 }
 
@@ -43,18 +45,22 @@ li a:hover {
     height: 80%;
     width: 70%;
     left: 30%;
-    position: fixed;
+    position: absolute;
     right: 0;
     top: 20%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
 }
 
 .area-left{
     background-color: darkblue;
-    position: fixed;
+    position: absolute;
     top: 20%;
     height: 80%;
-    width: 400px;
+    width: 20%;
     margin-left: 2%;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
 }
 
 .picture {
@@ -63,4 +69,5 @@ li a:hover {
     width: 80%;
     margin-left: 10%;
     margin-top: 10%;
+    border-radius: 5%;
 }

@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+    background-image: url(/images/BackgroundPic.jpg);
     font-weight: bold;
 }
 
@@ -62,7 +63,7 @@ li a:hover {
 }
 
 .aicon {
-  color: black;
+  color: white;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;

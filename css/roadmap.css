@@ -41,6 +41,9 @@ li a:hover {
 body {
   background: var(--background-color);
   font-family: var(--font);
+  background-image: url(/images/BackgroundPic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
 }

@@ -4,6 +4,8 @@ body {
     background-image: url(/images/BG.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-weight: bold;
+  font-family: sans-serif;
 }
 
 .navli {

@@ -1,6 +1,7 @@
 body {
-  background: var(--background-color);
-  font-family: var(--font);
+  padding: 0;
+  margin: 0;
+  height: 100%;
   background-image: url(/images/BG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
